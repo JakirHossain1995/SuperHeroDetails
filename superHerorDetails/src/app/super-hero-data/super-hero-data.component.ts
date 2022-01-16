@@ -21,6 +21,7 @@ export class SuperHeroDataComponent implements OnInit {
         this.superHeroId = Number(data.idNumber);
         this.utilityService.setSuperHeroID(this.superHeroId);
 
+        // Fetching the selected superhero details
         for(let element of this.superHeroAllDetails){
             if(element.id == this.superHeroId){
               this.superHeroDetails = element;
