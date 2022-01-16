@@ -1,0 +1,26 @@
+<div class="page-container">
+    <div class="table-responsive">
+        <table class="tableClass">
+            <thead>
+                <tr>
+                    <th colspan="2">Work</th>
+                </tr>
+                <tr>
+                    <th>Occupation</th>
+                    <th>Base</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{superHeroWorkDetails.occupation}}</td>
+                    <td>{{superHeroWorkDetails.base}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="space"></div>
+    <div class="container">
+        <button type="submit" class="prevButton" (click)="goToPreviousSuperHeroWork()">&lt;Previous</button>
+        <button type="submit" class="nextButton" (click)="goToNextSuperHeroWork()">Next&gt;</button>
+    </div>
+</div>

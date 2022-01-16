@@ -1,0 +1,43 @@
+nav.navbar{
+ background-color: aqua;
+}
+
+li.nav-item{
+    margin: 5px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+li.nav-item a.nav-link {
+    color: rgb(0 0 0 / 95%);
+}
+li.nav-item a.active{
+    color: brown;
+}
+
+li.nav-item a.nav-link:hover{
+    color: rgb(238, 24, 142);
+    cursor: pointer;
+}
+
+h1.headingText{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: none;
+    background-color: rgb(96, 240, 83);
+    height: 55px;
+    margin: 0px;
+}
+
+/* Mobile Responsive CSS */
+@media only screen and (max-width: 768px){
+    h1.headingText{
+        padding: 5px;
+        font-size: 28px;
+        height: 73px;
+        width: 100%;
+    }
+}
+
+
+

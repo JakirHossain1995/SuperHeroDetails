@@ -1,0 +1,26 @@
+<div class="page-container">
+    <div class="table-responsive">
+        <table class="tableClass">
+            <thead>
+                <tr>
+                    <th colspan="2">Connections</th>
+                </tr>
+                <tr>
+                    <th>Group Affiliation</th>
+                    <th>Relatives</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{superHeroConnections.groupAffiliation}}</td>
+                    <td>{{superHeroConnections.relatives}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="space"></div>
+    <div class="container">
+        <button type="submit" class="prevButton" (click)="goToPreviousSuperHeroConnections()">&lt;Previous</button>
+        <button type="submit" class="nextButton" (click)="goToNextSuperHeroConnections()">Next&gt;</button>
+    </div>
+</div>

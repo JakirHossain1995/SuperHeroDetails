@@ -1,0 +1,36 @@
+<div class="page-container">
+    <div class="table-responsive">
+        <table class="tableClass">
+            <thead>
+                <tr>
+                    <th colspan="7">Biography</th>
+                </tr>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Alter Egos</th>
+                    <th>Aliases</th>
+                    <th>Place Of Birth</th>
+                    <th>First Appearance</th>
+                    <th>Publisher</th>
+                    <th>Alignment</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{superHeroBiography.fullName}}</td>
+                    <td>{{superHeroBiography.alterEgos}}</td>
+                    <td>{{superHeroBiography.aliases}}</td>
+                    <td>{{superHeroBiography.placeOfBirth}}</td>
+                    <td>{{superHeroBiography.firstAppearance}}</td>
+                    <td>{{superHeroBiography.publisher}}</td>
+                    <td>{{superHeroBiography.alignment}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="space"></div>
+    <div class="container">
+        <button type="submit" class="prevButton" (click)="goToPreviousSuperHeroBiography()">&lt;Previous</button>
+        <button type="submit" class="nextButton" (click)="goToNextSuperHeroBiography()">Next&gt;</button>
+    </div>
+</div>

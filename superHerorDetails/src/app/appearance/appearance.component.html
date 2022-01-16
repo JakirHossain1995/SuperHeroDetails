@@ -1,0 +1,34 @@
+<div class="page-container">
+    <div class="table-responsive">
+        <table class="tableClass">
+            <thead>
+                <tr>
+                    <th colspan="6">Appearance</th>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <th>Race</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Eye Color</th>
+                    <th>Hair Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{superHeroAprearanceDetails.gender}}</td>
+                    <td>{{superHeroAprearanceDetails.race}}</td>
+                    <td>{{superHeroAprearanceDetails.height}}</td>
+                    <td>{{superHeroAprearanceDetails.weight}}</td>
+                    <td>{{superHeroAprearanceDetails.eyeColor}}</td>
+                    <td>{{superHeroAprearanceDetails.hairColor}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="space"></div>
+    <div class="container">
+        <button type="submit" class="prevButton" (click)="goToPreviousSuperHeroAppearance()">&lt;Previous</button>
+        <button type="submit" class="nextButton" (click)="goToNextSuperHeroAppearance()">Next&gt;</button>
+    </div>
+</div>
